@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+html, body {width: 100vw; height: 100vh;}
+#root {width: 100%; height: 100%}
+
+body{
+    background: wheat;
+    margin:50px;
+ 
+    
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px;
+    background: blanchedalmond
+}
+
+nav>img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 5px;
+    margin-right:5px
+}
+ .nav-list{
+     display:flex;
+     list-style: none;
+     justify-content:center ;
+    
+   
+ }
+ .nav-list>li{
+     margin-right: 10px;
+      box-shadow: 0 0 1px
+    
+ }
+ .nav-list>li>a{
+     text-decoration: none;
+     color:dimgray;
+ }
+ h1,h2{
+     text-align: center;
+ }
+ .productImg{
+     max-width: 300px;
+     align-self: stretch 
+ }
+ .subtitle2{
+     text-align: center 
+ }
+ 
+ .dynamicPart{
+     display: flex;
+   
+ }
+  .dynamicPart > span{
+   margin:8px
+  }
+  
+  .foot{
+      padding:5px;
+      box-shadow: 0 0 3px
+  }
+  
+  .end{
+    margin-top:5px;
+    font-weight: bold;
+    color:darkgray
+  }
+  
+  .copy{
+      text-align:center 
+  }
